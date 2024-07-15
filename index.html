@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+</head>
+<body>
+    <script>
+// ______________________________________________________________question1___________________________________________________________________________
+//         for( let i=1;i<=100;i++)
+//         if(i%3==0 && i%5!=0)
+//         console.log("Fizz");
+//         else if(i%5==0 && i%3!=0)
+//         console.log("Buzz");
+//         else if(i%3==0 && i%5==0)
+//         console.log("FizzBuzz");
+//         else
+//         console.log(i);
+// // _______________________________________________________________question7_____________________________________________________________________________________
+        // function temp(num){
+        //     let fah=(num*9/5)+32;
+        //     console.log(fah);
+        // }
+        // temp(30)
+// ______________________________________________________________________question6_____________________________________________________________________     
+        //   let num=Number(prompt());
+        //   function factorial(num){
+        //     let fact=1;
+        //     for(let i=1;i<num;i++)
+        //     fact=fact*i;
+        // return fact;
+        //   }
+        //   console.log(factorial(num));
+// ______________________________________________________________________question2________________________________________________________________________  
+    // let Rev="";
+    // function palindrome(str)
+    // {
+    // for(let i=str.length-1;i>=0;i--)
+    // {
+    //     Rev+=str[i]
+    // }
+    // if(str==Rev)
+    // return ("Palindrome")
+    // else
+    // return "Not a Palindrome"
+    // }
+    // console.log(palindrome("malayalam"))  
+// _________________________________________________________________________question3______________________________________
+//      function large(arr){
+//            let max=0;
+//            for(let i=0;i<arr.length;i++)
+//            if(max<arr[i])
+//            max=arr[i];
+//         return max;
+
+//      }
+//      let arr=[10,20,30,40]
+//      console.log(large(arr))
+// // _________________________________________________________________________question8_______________________________________________     
+    let arr=[0,1,2,4,5,6,7,8,9,10];
+    let miss=arr[arr.length-1];
+    for(let i=0;i<=miss;i++){
+        if(arr[i]!=i){
+        console.log(i);
+        break;
+        }
+    }
+    </script>
+</body>
+</html>
